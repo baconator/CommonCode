@@ -27,7 +27,6 @@ public class NotificationHandler {
   /**
    * Creates a new NotificationHandler.
    *
-   * @param anonymousStatistics True for anonymous statistics, false for usage tracking
    * @param lastNotificationID The ID of the last notification loaded, or null or "DISABLE" to disable notifications
    */
   public NotificationHandler(String lastNotificationID) {

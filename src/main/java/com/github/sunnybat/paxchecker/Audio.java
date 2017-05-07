@@ -27,7 +27,7 @@ public class Audio {
   private static File alarmFile;
 
   /**
-   * Checks whether or not sound is currently enabled. This is set using {@link #enableAlarm(boolean)}.
+   * Checks whether or not sound is currently enabled. This is set using {@link #enableAlarm()}.
    *
    * @return True to play sound, false to not
    */
@@ -38,7 +38,6 @@ public class Audio {
   /**
    * Sets whether to play the alarm sound when an update is found. This can be called at any time.
    *
-   * @param play True to play sound, false to not
    */
   public static void enableAlarm() {
     playSound = true;

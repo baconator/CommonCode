@@ -110,7 +110,7 @@ public final class TicketChecker {
   /**
    * Checks whether or not a link has already been opened.
    *
-   * @param link The link to check
+   * @param url The link to check
    * @return True if the link has already been opened, false if not
    */
   private synchronized boolean hasOpenedLink(String url) {
